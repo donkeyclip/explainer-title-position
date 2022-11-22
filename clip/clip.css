@@ -1,0 +1,93 @@
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(36, 34, 34);
+  color: white;
+  font-family: Roboto,sans-serif;
+}
+
+.box-container{
+  position: relative;
+  width: 360px;
+  height: 250px;
+}
+
+.box{
+  width: 360px;
+  height: 250px;
+  position: absolute;
+}
+
+.text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-weight: bold;
+  opacity: 0;
+}
+
+.box:nth-child(1){
+  background-color: #86A8E7;
+  left: 362px;
+  z-index: 0;
+  opacity: 0;
+  font-size: 20px;
+}
+
+.box:nth-child(2){
+  background-color: #E95F74;;
+}
+.box:nth-child(3){
+  background-color: #2F4858;
+}
+.box:nth-child(4){
+  background-color: #945B96;
+}
+
+
+.line-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  z-index: 1;
+}
+
+.line{
+  width: 2px;
+  height: 20px;
+  background-color: aliceblue;
+}
+
+.clip-container{
+  position: relative;
+  width: 360px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.33);
+}
+
+svg{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+svg path{
+  fill: rgba(255, 255, 255, 0.89);
+}
+
+.audiobar{
+  width: 340px;
+  height: 5px;
+  position: absolute;
+  left: 10px;
+  bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.89);;
+}
+

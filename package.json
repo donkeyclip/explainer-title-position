@@ -1,0 +1,57 @@
+{
+  "name": "@donkeyclip/motorcortex-clip-starter",
+  "version": "1.0.0",
+  "description": "Starter repo for creating Donkeyclips",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donkeyclip/motorcortex-clip-starter"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "build": "webpack --mode=production --config ./server/webpack.config.js",
+    "lint": "eslint -c .eslintrc src/**/*.js",
+    "lint:fix": "npm run lint -- --fix",
+    "start": "npm run build & webpack serve --mode=development --config ./server/webpack.config.js",
+    "test": "HERE GOES YOUR TEST TASK",
+    "test:prod": "npm run lint"
+  },
+  "keywords": [
+    "motorcortex",
+    "donkeyclip",
+    "motorcortex-clip"
+  ],
+  "devDependencies": {
+    "@babel/core": "7.20.2",
+    "@babel/eslint-parser": "7.19.1",
+    "@babel/preset-env": "7.20.2",
+    "@donkeyclip/motorcortex": "9.4.1",
+    "@donkeyclip/motorcortex-player": "2.10.7",
+    "@rollup/plugin-babel": "6.0.2",
+    "@rollup/plugin-commonjs": "23.0.2",
+    "@rollup/plugin-json": "5.0.1",
+    "@rollup/plugin-node-resolve": "15.0.1",
+    "autoprefixer": "10.4.13",
+    "babel-loader": "8.3.0",
+    "core-js": "3.26.1",
+    "css-minimizer-webpack-plugin": "4.2.2",
+    "cssnano": "5.1.14",
+    "eslint": "8.27.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-babel": "5.3.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-promise": "6.1.1",
+    "html-loader": "4.2.0",
+    "postcss": "8.4.19",
+    "postcss-loader": "7.0.1",
+    "prettier": "2.7.1",
+    "rimraf": "3.0.2",
+    "webpack": "5.75.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.11.1"
+  }
+}
