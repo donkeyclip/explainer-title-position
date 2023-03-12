@@ -24,9 +24,9 @@ export const clip = new HTMLClip({
   },
 });
 
-clip.addIncident(opacity(1,".text",500,"@stagger(0,3000)"),2500);
-clip.addIncident(opacity(1,".box:nth-child(1)",1000),1000);
-clip.addIncident(leftMove("362px",".box:nth-child(2)",800),6000);
-clip.addIncident(leftMove("242px",".box:nth-child(3)",800),6000);
-clip.addIncident(leftMove("122px",".box:nth-child(4)",800),6000);
-clip.addIncident(leftMove("83%",".box:nth-child(2) .text, .box:nth-child(3) .text, .box:nth-child(4) .text",800),6000);
+clip.addIncident(opacity(1,".text",500,"@stagger(0,1500)"),2000);
+clip.addIncident(opacity(1,".box:nth-child(1)",1000),500);
+clip.addIncident(leftMove("362px",".box:nth-child(2)",800),4000);
+clip.addIncident(leftMove("242px",".box:nth-child(3)",800),4000);
+clip.addIncident(leftMove("122px",".box:nth-child(4)",800),4000);
+clip.addIncident(leftMove("83%",".box:nth-child(2) .text, .box:nth-child(3) .text, .box:nth-child(4) .text",800),4000);
