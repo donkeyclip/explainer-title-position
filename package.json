@@ -27,8 +27,8 @@
     "@babel/core": "7.20.2",
     "@babel/eslint-parser": "7.19.1",
     "@babel/preset-env": "7.20.2",
-    "@donkeyclip/motorcortex": "9.4.1",
-    "@donkeyclip/motorcortex-player": "2.10.7",
+    "@donkeyclip/motorcortex": "9.5.7",
+    "@donkeyclip/motorcortex-player": "2.10.8",
     "@rollup/plugin-babel": "6.0.2",
     "@rollup/plugin-commonjs": "23.0.2",
     "@rollup/plugin-json": "5.0.1",
@@ -53,5 +53,8 @@
     "webpack": "5.75.0",
     "webpack-cli": "4.10.0",
     "webpack-dev-server": "4.11.1"
+  },
+  "dependencies": {
+    "@donkeyclip/motorcortex-anime": "^3.1.1"
   }
 }
