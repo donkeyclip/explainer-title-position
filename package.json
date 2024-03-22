@@ -24,9 +24,9 @@
     "motorcortex-clip"
   ],
   "devDependencies": {
-    "@babel/core": "7.20.2",
-    "@babel/eslint-parser": "7.19.1",
-    "@babel/preset-env": "7.20.2",
+    "@babel/core": "7.24.3",
+    "@babel/eslint-parser": "7.24.1",
+    "@babel/preset-env": "7.24.3",
     "@donkeyclip/motorcortex": "9.4.1",
     "@donkeyclip/motorcortex-player": "2.10.7",
     "@rollup/plugin-babel": "6.0.2",
